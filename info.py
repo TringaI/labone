@@ -47,7 +47,7 @@ projects_data = {
     "Recbot":"Built a robot with recycled materials",
     "Chatbot":"Built a robot assistant, that can engage in convos",
     "Miket":"Built a digital platform that fosters collaboration",
-    "Kosovo Quiz": "A fun BuzzFeed-style quiz about Kosovo created in Phase II of my Web Development Lab 01 project."
+    "Kosovo Quiz": "A fun BuzzFeed-style quiz about Kosovo created in Kosovo of my Web Development Lab 01 project."
 }
 
 programming_data = {

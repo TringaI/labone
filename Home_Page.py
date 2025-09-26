@@ -30,7 +30,7 @@ st.markdown("<p>Welcome to my Streamlit Web Development Lab01 app!<br>"
 
 st.markdown("""
 <p>1. <b>Portfolio Page</b>: This page showcases my portfolio, including projects and experience.<br>
-2. <b>PhaseII</b>: This page contains a mini quiz for Kosovo.</p>
+2. <b>Kosovo Quiz</b>: This page contains a mini quiz for Kosovo.</p>
 """, unsafe_allow_html=True)
 
 
