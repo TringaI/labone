@@ -52,17 +52,14 @@ div[data-baseweb="tag"] { background-color: purple !important; color: white !imp
 """, unsafe_allow_html=True)
 
 
-# Convert image to base64
 def img_to_base64(path):
     img = Image.open(path)
     buffered = BytesIO()
     img.save(buffered, format="PNG")
     return base64.b64encode(buffered.getvalue()).decode()
 
-# Title
 st.markdown("<h1>Kosovo Knowledge Quiz 🇽🇰</h1>", unsafe_allow_html=True)
 
-# Images
 img1 = img_to_base64("Images/kosovo/kosovo_flag.png")
 img2 = img_to_base64("Images/kosovo/kosovo_mountains.avif")
 img3 = img_to_base64("Images/kosovo/prizren.jpg")
@@ -81,12 +78,10 @@ st.markdown(f"""
 </div>
 """, unsafe_allow_html=True)
 
-# Session state
 if "submitted" not in st.session_state:
     st.session_state.submitted = False
     st.session_state.score = 0
 
-# Questions
 st.markdown("<p>1. What is the capital of Kosovo?</p>", unsafe_allow_html=True)
 q1 = st.radio("", ["Pristina", "Peja", "Gjakova", "Mitrovica"], index=None)
 
@@ -111,7 +106,6 @@ div.stSlider > div[data-baseweb="slider"] > div > div {{
 st.markdown("<p>5. What is the primary official language of Kosovo?</p>", unsafe_allow_html=True)
 q5 = st.selectbox("", ["","Albanian", "English", "Turkish", "Bosnian"])
 
-# Scoring
 if st.session_state.submitted:
     total = 5
     st.success(f"You scored {st.session_state.score}/{total}!")

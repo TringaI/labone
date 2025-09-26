@@ -38,6 +38,7 @@ def montserrat_text(text, header_level=None):
     else:
         return f"<p>{text}</p>"
 
+#i wanted to use local images and change their width and height but also wanted to put object:cover so they wont stretch, so i made them into base64
 def img_to_base64(path):
     img = Image.open(path)
     buffered = BytesIO()
