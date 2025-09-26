@@ -15,7 +15,7 @@ html, body, [class*="css"], .stText, .stMarkdown, .stMarkdown h1, .stMarkdown h2
 h1 { font-size: 30px !important; }
 h2 { font-size: 20px !important; }
 h3 { font-size: 18px !important; }
-p { font-size: 16px !important; color: #f0f0f0 !important; }
+p { font-size: 16px !important; !important; }
 hr {
     border: 0 !important;
     height: 2px !important;
