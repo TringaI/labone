@@ -5,58 +5,28 @@ from PIL import Image
 from io import BytesIO
 import base64
 
-css = """
-<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet"><style>
-html, body, [class*="css"], .stText, .stMarkdown, h1, h2, h3, p {
+st.markdown("""
+<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+<style>
+html, body, [class*="css"], .stText, .stMarkdown, .stMarkdown h1, .stMarkdown h2, .stMarkdown h3, 
+.stMarkdown p, .stMarkdown a, .stExpanderContent {
     font-family: 'Montserrat', sans-serif !important;
 }
-h1 { font-size: 32px !important; font-weight: normal !important; }
-h2 { font-size: 28px !important; font-weight: normal !important; }
-h3 { font-size: 24px !important; font-weight: normal !important; }
-p  { font-size: 18px !important; font-weight: normal !important; margin:0; padding:0; }
-
-div[role='radiogroup'] label div:first-child {
-    background-color: #fff !important;
-    border: 2px solid purple !important;
-    border-radius: 50% !important;
-    width: 18px !important;
-    height: 18px !important;
-    display: inline-block !important;
-    position: relative !important;
-    margin-right: 8px !important;
-}
-div[role='radiogroup'] label div:first-child:after {
-    content: "" !important;
-    position: absolute !important;
-    top: 3px !important;
-    left: 3px !important;
-    width: 10px !important;
-    height: 10px !important;
-    border-radius: 50% !important;
+h1 { font-size: 30px !important; }
+h2 { font-size: 20px !important; }
+h3 { font-size: 18px !important; }
+p { font-size: 16px !important; color: #f0f0f0 !important; }
+hr {
+    border: 0 !important;
+    height: 2px !important;
     background-color: purple !important;
-    display: none !important;
+    margin: 20px 0 !important;
 }
-div[role='radiogroup'] label[data-checked="true"] div:first-child:after {
-    display: block !important;
-}
-
-input[type=checkbox] { accent-color: purple !important; }
-
-div.stSlider [role='slider'] {
-    background-color: purple !important; border: 2px solid white !important;
-}
-div.stSlider > div[data-baseweb="slider"] > div > div > div > div {
-    color: purple !important; font-weight: bold !important;
-}
-
-div[data-baseweb="tag"] {
-    background-color: purple !important; color: white !important; border-radius: 8px !important;
+.stProgress > div > div > div > div {
+    background-color: purple !important;
 }
 </style>
-"""
-
-st.markdown(css, unsafe_allow_html=True)
-
+""", unsafe_allow_html=True)
 
 def montserrat_text(text, header_level=None):
     if header_level == 1:
@@ -88,15 +58,15 @@ about_me_section()
 def links_section():
     st.sidebar.markdown(montserrat_text("Links", header_level=2), unsafe_allow_html=True)
 
-    linkedin_base64 = img_to_base64("Images/socials/linkedin.png")
+    linkedin_base64 = img_to_base64("images/socials/linkedin.png")
     linkedin_link = f'<a href="{info.my_linkedin_url}"><img src="data:image/png;base64,{linkedin_base64}" alt="LinkedIn" width="45" height="45"></a>'
     st.sidebar.markdown(linkedin_link, unsafe_allow_html=True)
 
-    github_base64 = img_to_base64("Images/socials/github.png")
+    github_base64 = img_to_base64("images/socials/github.png")
     github_link = f'<a href="{info.my_github_url}"><img src="data:image/png;base64,{github_base64}" alt="Github" width="45" height="45"></a>'
     st.sidebar.markdown(github_link, unsafe_allow_html=True)
 
-    email_base64 = img_to_base64("Images/socials/email.png")
+    email_base64 = img_to_base64("images/socials/email.png")
     email_html = f'<a href="mailto:{info.my_email_address}"><img src="data:image/png;base64,{email_base64}" alt="Email" width="45" height="45"></a>'
     st.sidebar.markdown(email_html, unsafe_allow_html=True)
 
