@@ -33,19 +33,19 @@ course_data = {
     "skills":["Python", "Incorporation of matrices in ML", "Just calculus", "New ways of writing","Different business models"],
     }
 experience_data = {
-    "Research Intern : Harvard Medical School/Mass Eye and Ear Hospital": (["- Worked on designing the Krabby Patty Recipe",
-                                                                          "- Increased Company Revenue by 200 dollars", "- Made Mr. Krabs Proud"],"Images/cook.jpg"),
-    "Founder,CEO & Software Developer: Miket":(["- Made the floor almost reflective",
-                                                           "- Increased customer visits by three folds by making restaurant clean"],"Images/cleaner.jpg"),
-    "Web Developer : Sidora Agency":(["- Caught 100+ Jellyfish with the help of my colleague Patrick"],"Images/jelly.jpg"),
-    "Teaching Assistant : Jcoders Academy":(["- Caught 100+ Jellyfish with the help of my colleague Patrick"],"Images/jelly.jpg"),
-    "Web Developer : Maro Agency":(["- Caught 100+ Jellyfish with the help of my colleague Patrick"],"Images/jelly.jpg"),
+    "Research Intern : Harvard Medical School/Mass Eye and Ear Hospital": (["- Designed AI tools for advanced image analysis, generating high-fidelity images with precisely integrated target objects.",
+                                                                          "- Conducted advanced data analysis through programming, visualizing complex, multidimensional datasets with scatterplots and pie charts, and applying linear and logistic regression to identify patterns and correlations."],"Images/cook.jpg"),
+    "Founder,CEO & Software Developer: Miket":(["- Developed and launched “miket,” a digital platform that fosters collaboration among girls in ICT.",
+                                                           "- Established Miket to simultaneously operate as an NGO, seeking to create opportunities for individuals in the tech community."],"Images/cleaner.jpg"),
+    "Web Developer : Sidora Agency":(["- Developed front-end interfaces for various websites using Vue.js."],"Images/jelly.jpg"),
+    "Teaching Assistant : Jcoders Academy":(["- Secured the internship by being chosen as one of the best students in the academ"],"Images/jelly.jpg"),
+    "Web Developer : Maro Agency":(["- Assisted on developing websites using various tools."],"Images/jelly.jpg"),
 
 }
 
 projects_data = {
-    "Krabby Patty Recipe": "Created the famous Recipe and tailored it from scratch",
     "Recbot":"Built a robot with recycled materials",
+    "Chatbot":"Built a robot assistant, that can engage in convos",
     "Miket":"Built a digital platform that fosters collaboration",
     "Kosovo Quiz": "A fun BuzzFeed-style quiz about Kosovo created in Phase II of my Web Development Lab 01 project."
 }
