@@ -58,14 +58,17 @@ about_me_section()
 def links_section():
     st.sidebar.markdown(montserrat_text("Links", header_level=2), unsafe_allow_html=True)
 
+    st.sidebar.markdown(montserrat_text("Connect with me on linkedin"), unsafe_allow_html=True)
     linkedin_base64 = img_to_base64("Images/socials/linkedin.png")
     linkedin_link = f'<a href="{info.my_linkedin_url}"><img src="data:image/png;base64,{linkedin_base64}" alt="LinkedIn" width="45" height="45"></a>'
     st.sidebar.markdown(linkedin_link, unsafe_allow_html=True)
-
+    
+    st.sidebar.markdown(montserrat_text("Check out my work"), unsafe_allow_html=True)
     github_base64 = img_to_base64("Images/socials/github.png")
     github_link = f'<a href="{info.my_github_url}"><img src="data:image/png;base64,{github_base64}" alt="Github" width="45" height="45"></a>'
     st.sidebar.markdown(github_link, unsafe_allow_html=True)
-
+    
+    st.sidebar.markdown(montserrat_text("Or email me!"), unsafe_allow_html=True)
     email_base64 = img_to_base64("Images/socials/email.png")
     email_html = f'<a href="mailto:{info.my_email_address}"><img src="data:image/png;base64,{email_base64}" alt="Email" width="45" height="45"></a>'
     st.sidebar.markdown(email_html, unsafe_allow_html=True)
