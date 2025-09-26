@@ -63,9 +63,9 @@ def img_to_base64(path):
 st.markdown("<h1>Kosovo Knowledge Quiz 🇽🇰</h1>", unsafe_allow_html=True)
 
 # Images
-img1 = img_to_base64("images/kosovo/kosovo_flag.png")
-img2 = img_to_base64("images/kosovo/kosovo_mountains.avif")
-img3 = img_to_base64("images/kosovo/prizren.jpg")
+img1 = img_to_base64("Images/kosovo/kosovo_flag.png")
+img2 = img_to_base64("Images/kosovo/kosovo_mountains.avif")
+img3 = img_to_base64("Images/kosovo/prizren.jpg")
 
 st.markdown(f"""
 <div style="display:flex; gap:10px; margin-bottom:30px;">
