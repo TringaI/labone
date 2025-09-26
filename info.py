@@ -28,7 +28,7 @@ education_data ={
 }
 course_data = {
     "code":["CS 1301", "Math 1554", "Math 1551", "English", "Info Systems & Digital Transformation"], 
-    "names":["Intro to CS", "Linear Algebra", "Differiental Calculus", "Englush", "Info Systems & Digital Transformation"], 
+    "names":["Intro to CS", "Linear Algebra", "Differiental Calculus", "English", "Info Systems & Digital Transformation"], 
     "semester_taken":["1st", "1st", "1st", "1st", "1st"],
     "skills":["Python", "Incorporation of matrices in ML", "Just calculus", "New ways of writing","Different business models"],
     }
