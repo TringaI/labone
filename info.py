@@ -34,12 +34,12 @@ course_data = {
     }
 experience_data = {
     "Research Intern : Harvard Medical School/Mass Eye and Ear Hospital": (["- Designed AI tools for advanced image analysis, generating high-fidelity images with precisely integrated target objects.",
-                                                                          "- Conducted advanced data analysis through programming, visualizing complex, multidimensional datasets with scatterplots and pie charts, and applying linear and logistic regression to identify patterns and correlations."],"Images/cook.jpg"),
+                                                                          "- Conducted advanced data analysis through programming, visualizing complex, multidimensional datasets with scatterplots and pie charts, and applying linear and logistic regression to identify patterns and correlations."],"Images/work/harvard.png"),
     "Founder,CEO & Software Developer: Miket":(["- Developed and launched “miket,” a digital platform that fosters collaboration among girls in ICT.",
-                                                           "- Established Miket to simultaneously operate as an NGO, seeking to create opportunities for individuals in the tech community."],"Images/cleaner.jpg"),
-    "Web Developer : Sidora Agency":(["- Developed front-end interfaces for various websites using Vue.js."],"Images/jelly.jpg"),
-    "Teaching Assistant : Jcoders Academy":(["- Secured the internship by being chosen as one of the best students in the academ"],"Images/jelly.jpg"),
-    "Web Developer : Maro Agency":(["- Assisted on developing websites using various tools."],"Images/jelly.jpg"),
+                                                           "- Established Miket to simultaneously operate as an NGO, seeking to create opportunities for individuals in the tech community."],"Images/work/brand.png"),
+    "Web Developer : Sidora Agency":(["- Developed front-end interfaces for various websites using Vue.js."],"Images/work/images.png"),
+    "Teaching Assistant : Jcoders Academy":(["- Secured the internship by being chosen as one of the best students in the academy"],"Images/work/jcoders.jpeg"),
+    "Web Developer : Maro Agency":(["- Assisted on developing websites using various tools."],"Images/work/not-found.jpg"),
 
 }
 
@@ -75,9 +75,9 @@ spoken_data = {
     "German": "Fluent",
 }
 leadership_data = {
-    "Founder of miket": (["- Luanched an NGO/Startup to support women in ICT"],"Images/puff.jpg"),
-    "Co-founder of coding club": (["-Co-founded and led the coding club in my high school"],"Images/puff.jpg"),
-    "Co-founder of chess club": (["- Co-founded and led the chess club in my high school"],"Images/puff.jpg"),
+    "Founder of miket": (["- Luanched an NGO/Startup to support women in ICT"],"Images/community/IMG_3466.JPG"),
+    "Co-founder of coding club": (["-Co-founded and led the coding club in my high school"],"Images/community/codingclub.png"),
+    "Co-founder of chess club": (["- Co-founded and led the chess club in my high school"],"Images/community/chess.png"),
 
 }
 activity_data={

@@ -21,7 +21,7 @@ st.markdown("<h1>Web Development Lab01</h1>", unsafe_allow_html=True)
 st.markdown("<hr>", unsafe_allow_html=True)  
 
 st.markdown("<h2>CS 1301</h2>", unsafe_allow_html=True)
-st.markdown("<h3>Web Development - Section A</h3>", unsafe_allow_html=True)
+st.markdown("<h3>Web Development - Section C</h3>", unsafe_allow_html=True)
 st.markdown("<h3>Tringa Ibrahimi</h3>", unsafe_allow_html=True)
 
 st.markdown("<p>Welcome to my Streamlit Web Development Lab01 app!<br>"
